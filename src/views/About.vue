@@ -32,9 +32,9 @@
     </p>
 
     <div class="flex flex-row flex-wrap gap-4 sm:gap-16">
-      <PhotoFolder title="Pics" folderName="pics" iconPath="/src/assets/videos/dancing-flowers.mp4" />
-      <PhotoFolder title="Books" folderName="books" iconPath="/src/assets/videos/dancing-flowers.mp4" />
-      <PhotoFolder title="Sewing" folderName="sewing" iconPath="/src/assets/videos/dancing-flowers.mp4" />
+      <PhotoFolder title="Pics" folderName="pics" iconPath="src/assets/videos/dancing-flowers.mp4" />
+      <PhotoFolder title="Books" folderName="books" iconPath="src/assets/videos/dancing-flowers.mp4" />
+      <PhotoFolder title="Sewing" folderName="sewing" iconPath="src/assets/videos/dancing-flowers.mp4" />
     </div>
 
 </template>

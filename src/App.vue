@@ -5,7 +5,7 @@
       <div class="flex flex-col my-16 gap-8 md:w-56 md:ml-12 items-center print:hidden">
 
         <div class="flex gap-2 flex-col md:gap-8 items-center">
-          <a href="/" class="tracking-widest">tessabillens</a>
+          <router-link to="/" class="tracking-widest">tessabillens</router-link>
           <img class="w-8 md:w-20" src="/src/assets/icons/flower2.png" alt="flower2">
         </div>
         <ul class="flex gap-4 md:flex-col sm:gap-8">

@@ -1,9 +1,8 @@
 <template>
-  
-    <h2 class="text-3xl">About</h2>
 
-    <div class="flex flex-row gap-1 sm:gap-4">
-      
+    <h2 class="text-3xl">About</h2>
+    <div class="flex">
+      <div class="flex flex-row flex-wrap gap-4 ">
       <div class="flex items-center gap-2">
         <img src="/src/assets/icons/flower1.png" alt="Icon 1" class="w-4 h-auto hidden lg:block">
         <a href="https://github.com/tessabill" class="hover:text-[#FA9BAF] hover:font-semibold">github</a>
@@ -22,6 +21,8 @@
         <img src="/src/assets/icons/flower1.png" alt="Icon 4" class="w-4 h-auto hidden lg:block">
       </div>
     </div>
+    </div>
+    
 
     <p>
       Hi, I’m Tessa, a media and computer science student originally from Cologne.
@@ -31,11 +32,13 @@
       Have some fun looking around here.
     </p>
 
-    <div class="flex flex-row flex-wrap gap-4 sm:gap-16">
+    <div class="flex justify-center items-center md:block">
+    <div class="flex flex-row flex-wrap sm:gap-16  sm:items-center">
       <PhotoFolder title="Pics" folderName="pics" iconPath="dancing-flowers.mp4" />
       <PhotoFolder title="Books" folderName="books" iconPath="dancing-flowers.mp4" />
       <PhotoFolder title="Sewing" folderName="sewing" iconPath="dancing-flowers.mp4" />
     </div>
+  </div>
 
 </template>
 

@@ -12,7 +12,6 @@
           <li><router-link to="/about" class="block hover:text-[#FA9BAF] hover:font-semibold">About</router-link></li>
           <li><router-link to="/cv" class="block hover:text-[#FA9BAF] hover:font-semibold">CV</router-link></li>
           <li><router-link to="/projects" class="block hover:text-[#FA9BAF] hover:font-semibold">Projects</router-link></li>
-          <li><router-link to="/suprise" class="block hover:text-[#FA9BAF] hover:font-semibold">??????</router-link></li>
         </ul>
       </div>
       

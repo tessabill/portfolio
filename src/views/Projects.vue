@@ -1,6 +1,9 @@
 <template>
-    <div>
-    <PortfolioSection sectionTitle="Projects" 
+    
+      <h1 class="text-3xl">Projects</h1>
+      <p>Here are some of my projects i have worked on.</p>
+      <div class="p-8">
+    <PortfolioSection
               :items="projects" />
     </div>
   </template>

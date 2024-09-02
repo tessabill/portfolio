@@ -9,12 +9,11 @@
       sectionTitle="Education"
       :items="educationItems"
     />
-    <hr>
+
     <CvSection
       sectionTitle="Work Experience"
       :items="workExperienceItems"
     />
-    <hr>
     <CvSection
       sectionTitle="Voluntary Engagement"
       :items="volunteeringItems"
@@ -47,7 +46,7 @@ const educationItems = [
     year: "2012 - 2020",
     title: "High School Diploma",
     description: "Graduated from Geschwister-Scholl-Gymnasium in Pulheim.",
-    skills: "Advanced courses in psychology and German, Abitur 1.0"
+    skills: "Advanced courses in psychology and German"
   }
 ];
 

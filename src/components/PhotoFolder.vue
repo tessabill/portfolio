@@ -2,7 +2,7 @@
    <div class="w-16">
     <!-- Zeige entweder die Animation oder ein statisches Bild auf mobilen Geräten -->
     <Animations v-if="!isMobile" :src="iconPath" alt="Folder Icon" class="mb-2 cursor-pointer" @click="toggleOpen"></Animations>
-    <img v-else :src="iconPath" alt="Folder Icon" class="mb-2 cursor-pointer" @click="toggleOpen" />
+    <img v-else :src="iconPath" alt="Folder Icon" class="w-10 h-10 mb-2 cursor-pointer" @click="toggleOpen" />
 
     <h2 class="text-xs">{{ title }}</h2>
   </div>

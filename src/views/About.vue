@@ -4,21 +4,21 @@
     <div class="flex">
       <div class="flex flex-row flex-wrap gap-4 ">
       <div class="flex items-center gap-2">
-        <img src="/src/assets/icons/flower1.png" alt="Icon 1" class="w-4 h-auto hidden lg:block">
+
         <a href="https://github.com/tessabill" class="hover:text-[#FA9BAF] hover:font-semibold">github</a>
-        <img src="/src/assets/icons/flower1.png" alt="Icon 1" class="w-4 h-auto hidden lg:block">
+        
       </div>
       <div class="flex items-center gap-2">
         <a href="https://git.tu-berlin.de/tessabillens" class="hover:text-[#FA9BAF] hover:font-semibold">gitlab</a>
-        <img src="/src/assets/icons/flower1.png" alt="Icon 2" class="w-4 h-auto hidden lg:block">
+       
       </div>
       <div class="flex items-center gap-2">
         <a href="mailto:tessa.billens@gmx.de" class="hover:text-[#FA9BAF] hover:font-semibold">email</a>
-        <img src="/src/assets/icons/flower1.png" alt="Icon 3" class="w-4 h-auto hidden lg:block">
+        
       </div>
       <div class="flex items-center gap-2">
         <a href="https://example.com/link4" class="hover:text-[#FA9BAF] hover:font-semibold">linkedin</a>
-        <img src="/src/assets/icons/flower1.png" alt="Icon 4" class="w-4 h-auto hidden lg:block">
+        
       </div>
     </div>
     </div>

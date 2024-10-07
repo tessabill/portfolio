@@ -1,8 +1,11 @@
 <template>
-  <div class="w-16 ">
-      <Animations :src="iconPath" alt="Folder Icon" class=" mb-2 cursor-pointer" @click="toggleOpen"></Animations>
-      <h2 class="text-xs">{{ title }}</h2>
-    </div>
+   <div class="w-16">
+    <!-- Zeige entweder die Animation oder ein statisches Bild auf mobilen Geräten -->
+    <Animations v-if="!isMobile" :src="iconPath" alt="Folder Icon" class="mb-2 cursor-pointer" @click="toggleOpen"></Animations>
+    <img v-else :src="iconPath" alt="Folder Icon" class="mb-2 cursor-pointer" @click="toggleOpen" />
+
+    <h2 class="text-xs">{{ title }}</h2>
+  </div>
     <div v-if="isOpen" class="fixed inset-0 bg-white p-12 z-50 overflow-y-auto">
       <button class="absolute top-4 right-4 text-xl font-bold" @click.stop="toggleOpen">Close</button>
       <div v-if="photos.length === 0" class="text-center text-xl mt-12">
@@ -29,6 +32,7 @@ const props = defineProps({
 
 const isOpen = ref(false);
 const photos = ref([]);
+const isMobile = ref(false);
 
 // Mapping of folder names to their respective glob patterns
 const folderGlobs = {
@@ -65,6 +69,7 @@ const loadPhotos = async () => {
 
 // Ensure photos are loaded when the component is mounted
 onMounted(() => {
+  isMobile.value = window.innerWidth <= 768;
   if (isOpen.value) {
     loadPhotos();
   }

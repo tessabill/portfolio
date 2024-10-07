@@ -34,9 +34,7 @@
 
     <div class="flex justify-center items-center md:block">
     <div class="flex flex-row flex-wrap sm:gap-16  sm:items-center">
-      <PhotoFolder title="Pics" folderName="pics" iconPath="dancing-flowers.mp4" />
-      <PhotoFolder title="Books" folderName="books" iconPath="dancing-flowers.mp4" />
-      <PhotoFolder title="Sewing" folderName="sewing" iconPath="dancing-flowers.mp4" />
+      <PhotoFolder title="" folderName="sewing" iconPath="dancing-flowers.mp4" />
     </div>
   </div>
 

@@ -17,7 +17,7 @@
         
       </div>
       <div class="flex items-center gap-2">
-        <a href="https://example.com/link4" class="hover:text-[#FA9BAF] hover:font-semibold">linkedin</a>
+        <a href="https://www.linkedin.com/in/tessa-billens-686240267/" class="hover:text-[#FA9BAF] hover:font-semibold">linkedin</a>
         
       </div>
     </div>

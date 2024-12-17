@@ -52,6 +52,12 @@ const educationItems = [
 
 const workExperienceItems = [
   {
+    year: "Sep 2024 - now",
+    title: "Undergraduate Research Assistant at the Human-Computer Interaction Lab",
+    description: "Supporting researching projects and studies, building the Lab's website, Starting on developing in Unity",
+    skills: "Research, Web Development, Teamwork, Communication, Unity"
+  },
+  {
     year: "2022 - 2023",
     title: "Working Student as Social Media Manager at Go City",
     description: "Creating content for social media channels and optimizing the social media strategy. Maintaining the Website with a CMS. Maintaining E-Mail Marketing.",

@@ -18,7 +18,7 @@
 
       <!-- Main Content, der sich abhängig von der Route ändert -->
       <main >
-        <div class="flex flex-col gap-8 w-80 sm:w-[30rem] md:my-16 mb-16">
+        <div class="flex flex-col gap-8 w-80 md:w-[40rem] md:my-16 mb-16">
         <router-view />
       </div>
       </main>

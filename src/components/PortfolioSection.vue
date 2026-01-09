@@ -3,6 +3,14 @@
       <div v-for="(item, index) in items" :key="index" class=" pb-4">
         <div class="text-gray-600 text-sm">{{ item.year }}</div>
         <a class="text-xl" :href="item.projectLink">{{ item.title }}</a>
+        <br>
+        <a
+            v-if="item.projectLink"
+            class="text-[#FA9BAF] hover:font-semibold"
+            :href="item.projectLink"
+          >
+            project link
+          </a>
         <div class="text-gray-800 text-sm py-2">{{ item.description }}</div>
         <div class="text-xs text-gray-500">[{{ item.skills }}]</div>
       </div>

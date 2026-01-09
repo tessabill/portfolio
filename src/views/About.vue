@@ -25,10 +25,10 @@
     
 
     <p>
-      Hi, I’m Tessa, a media and computer science student originally from Cologne.
-      I am currently studying in Berlin at TU and FU Berlin.
-      I’ve created this website as a little personal project and for applying to the Design and Computation Masters from UDK and TU.
-      Apart from programming, I like to go out a lot, do yoga and tennis and do crafts like knitting, sewing, and drawing.
+      Hi, I’m Tessa, a media and computer science/ psychology student originally from Cologne.
+      I am currently studying in Halle while completing my other bachelor from TU/FU Berlin.
+      I’ve created this website as a little personal project to showcase some of my work and hobbies.
+      Apart from programming, I like to do yoga and bouldering and do crafts like knitting, sewing, and drawing.
       Have some fun looking around here.
     </p>
 

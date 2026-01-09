@@ -31,10 +31,16 @@ import CvSection from '@/components/CvSection.vue';
 
 const educationItems = [
   {
+    year: "2025 - now",
+    title: "Bachelor of Science in Psychology",
+    description: "Parallel studies at Martin-Luther-Universität Halle-Wittenberg",
+    skills: "Personality Psychology, Biological Psychology, Statistics, Research Methods"
+  },
+  {
     year: "2021 - now",
     title: "Bachelor of Science in Media Informatics",
-    description: "Studying at Technische Universität and Freie Universität Berlin in my 6th Semester.",
-    skills: "C, Java, Javascript, Python, UX/UI Design, Web Development, Machine Learning, App Development"
+    description: "Studying at Technische Universität and Freie Universität Berlin",
+    skills: "C#, Unity, Java, Javascript, Python, UX/UI Design, Web Development, Machine Learning, Android Development"
   },
   {
     year: "2023 - 2024",
@@ -46,13 +52,13 @@ const educationItems = [
     year: "2012 - 2020",
     title: "High School Diploma",
     description: "Graduated from Geschwister-Scholl-Gymnasium in Pulheim.",
-    skills: "Advanced courses in psychology and German"
+    skills: "Advanced courses in Psychology and German"
   }
 ];
 
 const workExperienceItems = [
   {
-    year: "Sep 2024 - now",
+    year: "Sep 2024 - Oct 2025",
     title: "Undergraduate Research Assistant at the Human-Computer Interaction Lab",
     description: "Supporting researching projects and studies, building the Lab's website, Starting on developing in Unity",
     skills: "Research, Web Development, Teamwork, Communication, Unity"

@@ -4,6 +4,7 @@
       <p class="pb-8">Here are some of my projects i have worked on.</p>
       <div >
     <PortfolioSection
+      sectionTitle="Projects"
               :items="projects" />
     </div>
     </div>

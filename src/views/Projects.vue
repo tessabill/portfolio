@@ -31,8 +31,9 @@ const projects = [
   {
     year: '2024',
     title: 'Machine Learning Project for Grocery Detection',
-    description: 'For the course "Ambient Assisted Living" i participated in the machine learning subgroup for the project Smart Kitchen. The result is a Web Application, where you can manage the contents of your fridge, scan new groceries that are automatically added into your inventory and get AI-generated recipe suggestions based on your inventory.',
+    description: 'For the course "Ambient Assisted Living" i participated in the machine learning subgroup for the project Smart Kitchen. We finetuned the YOLOv8 model for grocery detection to integrate automatic inventory management. The result is a Web Application that lets you manage the contents of your fridge, scan new groceries that are automatically added into your inventory and get AI-generated recipe suggestions based on your inventory.',
     skills: 'Python, Finetuning Models',
+    image: 'public/IMG_1341.JPG',
     projectLink: 'https://git.tu-berlin.de/ambient-assisted-living-sose24/smart-kitchen'
   },
   {

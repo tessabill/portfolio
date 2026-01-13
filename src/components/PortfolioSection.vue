@@ -4,6 +4,7 @@
         <div class="text-gray-600 text-sm">{{ item.year }}</div>
         <a class="text-xl" :href="item.projectLink">{{ item.title }}</a>
         <br>
+        
         <a
             v-if="item.projectLink"
             class="text-[#FA9BAF] hover:font-semibold"
@@ -13,6 +14,12 @@
           </a>
         <div class="text-gray-800 text-sm py-2">{{ item.description }}</div>
         <div class="text-xs text-gray-500">[{{ item.skills }}]</div>
+        <img
+        v-if="item.image"
+        :src="item.image"
+        alt="Project image"
+        class="my-2 max-h-48 rounded shadow"
+      />
       </div>
     </div>
   </template>
